@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="PicAndLabelInline.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Width="471.224" Height="47.448" Foreground="{x:Null}">
+    <Grid Margin="0,0,0,197">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="151*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="objLabel" Content="objLabel" HorizontalAlignment="Left" Height="33" Margin="34,14,0,-47" Width="330" VerticalAlignment="Center" Foreground="White"/>
+        <Image x:Name="statusImage" HorizontalAlignment="Left" Height="47" Margin="0,0,0,-47" VerticalAlignment="Top" Width="34" Source="off.jpg"/>
+
+    </Grid>
+</UserControl>
